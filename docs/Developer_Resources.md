@@ -22,5 +22,12 @@ Convolutional Neural Networks
 - [Git with Visual Studio Code](https://www.youtube.com/watch?v=i_23KUAEtUM)
 
 # Tkinter / CustomTkinter Resources
-### Links
+### General Links
 - [Modern GUI using Tkinter](https://medium.com/@fareedkhandev/modern-gui-using-tkinter-12da0b983e22)
+- [Updating Live Data with Tkinter](https://pythonprogramming.net/plotting-live-bitcoin-price-data-tkinter-matplotlib/)
+
+### Tkinter Widget/Layouts Guides
+Tkinter Widgets are the UI components that can be added to your UI
+- [Using Tkinter Frame](https://www.tutorialspoint.com/python/tk_frame.htm)
+- [Grid Layout Manager](https://www.pythonguis.com/tutorials/create-ui-with-tkinter-grid-layout-manager/)
+- [Menubar](https://pythonspot.com/tk-menubar/)
