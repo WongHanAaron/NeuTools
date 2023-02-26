@@ -31,3 +31,13 @@ Tkinter Widgets are the UI components that can be added to your UI
 - [Using Tkinter Frame](https://www.tutorialspoint.com/python/tk_frame.htm)
 - [Grid Layout Manager](https://www.pythonguis.com/tutorials/create-ui-with-tkinter-grid-layout-manager/)
 - [Menubar](https://pythonspot.com/tk-menubar/)
+
+
+# Python Multi-Threading and Multi-Processing
+Most implementations of python do not support multi-threading which is often necessary to run multiple sections of code concurrently within a single program. For our use-case, we will at the very least need a thread to run the UI and a thread to run the training and inference. 
+[More on Python not having Multi-threading](https://www.tutorialspoint.com/python-and-multi-threading-is-it-a-good-idea#:~:text=Python%20doesn't%20support%20multi,GIL%20does%20not%20prevent%20threading.).
+
+To enable this, we will need to implement multi-processing that will allow for multiple instances of python to execute in different processes. The following resources below are on multi-processing and communication between the processes.
+
+### Links
+- [Multi-Processing with Message Passing](https://pymotw.com/2/multiprocessing/communication.html#:~:text=A%20simple%20way%20to%20communicate,can%20pass%20through%20a%20Queue.&text=This%20short%20example%20only%20passes,for%20the%20worker%20to%20finish.)
