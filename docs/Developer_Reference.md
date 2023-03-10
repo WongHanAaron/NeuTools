@@ -21,7 +21,7 @@ We'll setup a resources file soon I promise :)
 # Running The Project
 Section for any documentation on how to run the project in the current commit.
 ## UI
-To start the UI, open the file 'main_window.py' within Visual Studio Code.
-You can find the file in 'src\ui\main_window.py'. Then click the run button on the top-right hand corner of the open file. 
+To start the UI, open the file 'MainApplication.py' within Visual Studio Code.
+You can find the file in 'src\ui\MainApplication.py'. Then click the run button on the top-right hand corner of the open file. 
 
 Someday, we'll abstract all of this into a main.py file closer to the root :)
